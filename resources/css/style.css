@@ -76,8 +76,9 @@ header{
 }
 
 
-.owl-item{
+.item{
     text-align: center;
+    background-color: fuchsia;
 }
 
 .chart{

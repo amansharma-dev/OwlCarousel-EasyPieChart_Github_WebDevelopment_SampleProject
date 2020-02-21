@@ -1,55 +1,55 @@
 /*basic setup*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html,
-body{
+body {
     background-color: #fff;
-    color: darkslategray;
+    color: #2f3640;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
-.row{
+.row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-section{
+section {
     padding: 80px 0;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 20px;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
-h2{
+h2 {
     text-align: center;
     margin-bottom: 20px;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
-.long-copy{
+.long-copy {
     text-align: center;
     margin-top: 50px;
     width: 100%;
-    line-height: 145%;    
+    line-height: 145%;
 }
 
 
 /*header*/
 
-header{
+header {
     height: 100vh;
 }
 
@@ -57,18 +57,18 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 
 
 /*sectionn-01 setup*/
 
-.section-01{
-    height: 100vh; 
+.section-01 {
+    height: 100vh;
 }
 
-.owl-easy{
+.owl-easy {
     position: relative;
     top: 50%;
     text-align: center;
@@ -76,57 +76,60 @@ header{
 }
 
 
-.item{
+.item {
     text-align: center;
-    background-color: fuchsia;
+    background-color: #ffffff;
 }
 
-.chart{
-      position:relative;
-      width:150px;;
-      height:150px;
-      margin-bottom:30px;
-      text-align:center;
-      display:inline-block;
-      margin-top:0px;
+.chart {
+    position: relative;
+    width: 150px;
+    ;
+    height: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
 }
 
-.chart canvas{
+.chart canvas {
     position: absolute;
     top: 0;
-    left:0;
-    
+    left: 0;
+
 }
 
-.chart .percent{
-  color:#000;
-  line-height:152px;
-  display:inline-block;
-  font-size:150%;
+.chart .percent {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 150%;
 }
 
-.chart .percent:after{
-  content:'%';
+.chart .percent:after {
+    content: '%';
 }
 
 
 
 .owl-dots {
-  text-align: center;
-  padding-top: 45px;
+    text-align: center;
+    padding-top: 45px;
 }
+
 .owl-dots button.owl-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  background: #bdc3c7;
-  margin: 0 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #bdc3c7;
+    margin: 0 6px;
 }
+
 .owl-dots button.owl-dot.active {
-  background-color: #f1c40f;
+    background-color: #f1c40f;
 }
 
 .owl-dots button.owl-dot:focus {
-  outline: none;
+    outline: none;
 }
